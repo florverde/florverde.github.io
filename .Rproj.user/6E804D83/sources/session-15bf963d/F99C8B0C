@@ -3,7 +3,7 @@
     "path": "~/VerdeFlor/florverde.github.io/_layouts/home_style.html",
     "project_path": "_layouts/home_style.html",
     "type": "html",
-    "hash": "2998533450",
+    "hash": "3592634366",
     "contents": "",
     "dirty": false,
     "created": 1695843350169.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "114,61",
-        "scrollLine": "110"
+        "cursorPosition": "103,98",
+        "scrollLine": "93"
     },
     "folds": "",
-    "lastKnownWriteTime": 1695843481,
+    "lastKnownWriteTime": 1695843734,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1695843481366,
+    "last_content_update": 1695843735603,
     "read_only": false,
     "read_only_alternatives": []
 }

@@ -3,7 +3,7 @@
     "path": "~/VerdeFlor/florverde.github.io/_config.yml",
     "project_path": "_config.yml",
     "type": "yaml",
-    "hash": "866492606",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1695842147829.0,
@@ -12,8 +12,8 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "28,0",
-        "scrollLine": "16"
+        "cursorPosition": "3,79",
+        "scrollLine": "0"
     },
     "folds": "",
     "lastKnownWriteTime": 1695842660,

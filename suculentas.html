@@ -4,46 +4,39 @@ permalink: /suculentas
 published: true
 ---
 <!-- Main Container -->
-<div id="banners"></div>
-<div class="container">
-  {% for post in site.categories.suculents %}
-  <div class="suculentas-post">
-      <h1 class="suculentas-title">
-        <i class="fa fa-file-text"></i>
-        {{ post.title }}
-      </h1>
-      <br>
-      <img src="assets/img/slider/{{ post.picture }}" alt="Feature-img" align="right" width="100%" class="suculentas-image">
-      <br>
-      <p>{{ post.description }}</p>
-      <span class="badge">{{ post.date | date: '%B %d, %Y' }}</span>
-      <div class="pull-right">
-        {% if post.label_default %}
-          <span class="label label-default">{{ post.label_default }}</span> 
-        {% endif %}
 
-        {% if post.label_primary %}
-          <span class="label label-primary">{{ post.label_primary }}</span> 
-        {% endif %}
-        
-        {% if post.label_success %}
-          <span class="label label-success">{{ post.label_success }}</span> 
-        {% endif %}
-        
-        {% if post.label_info %}
-          <span class="label label-info">{{ post.label_info }}</span> 
-        {% endif %}
-        
-        {% if post.label_warning %}
-          <span class="label label-warning">{{ post.label_warning }}</span>
-        {% endif %}
-
-        {% if post.label_danger %}
-          <span class="label label-danger">{{ post.label_danger }}</span>
-        {% endif %}
-      </div>         
-    </div>
-    <hr>
-  {% endfor %}
+<div class="row container-kamn">
+  <!--<img src="assets/img/slider/slide1.jpg" class="blog-post" alt="Feature-img" align="right" width="100%">-->
+  <h3 class="lead">  Suculentas: </h3><hr>
 </div>
+
+<div id="banners"></div>
+<div class="container">   
+  <div class="row h-50">
+    <div class="side-left col-sm-4 col-md-4">
+      <h3 class="lead">  Cante : </h3>
+      <img src="assets/img/slider/Blog1.png" class="blog-post" alt="Feature-img" align="right" width="100%">
+      <hr>
+
+      <p align = "justify">Curabitur vulputate, ligula lacinia scelris que tempor, lacus lacus ornare ante, ac egeistas est urna sit amet arcu. Class apte nt taeraciti sociosqu ad litora torquent.
+      Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus.Nunc eu ullamcor per orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus.</p>
+    </div>
+    <div class="side-left col-sm-4 col-md-4">
+      <h3 class="lead">  Cante : </h3>
+      <img src="assets/img/slider/Blog1.png" class="blog-post" alt="Feature-img" align="right" width="100%">
+      <hr>
+
+      <p align = "justify">Curabitur vulputate, ligula lacinia scelris que tempor, lacus lacus ornare ante, ac egeistas est urna sit amet arcu. Class apte nt taeraciti sociosqu ad litora torquent.
+      Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus.Nunc eu ullamcor per orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus.</p>
+    </div>
+    <div class="side-left col-sm-4 col-md-4">
+      <h3 class="lead">  Cante : </h3>
+      <img src="assets/img/slider/Blog1.png" class="blog-post" alt="Feature-img" align="right" width="100%">
+      <hr>
+
+      <p align = "justify">Curabitur vulputate, ligula lacinia scelris que tempor, lacus lacus ornare ante, ac egeistas est urna sit amet arcu. Class apte nt taeraciti sociosqu ad litora torquent. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus.Nunc eu ullamcor per orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus.</p>
+    </div>
+  </div>    
+</div>  
+
 <!--End Main Container -->
